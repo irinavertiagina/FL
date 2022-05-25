@@ -39,7 +39,7 @@ class Person{
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Person)) return false;
-        Person person = (Person) o;
+        Person person = (Person) o; //comm
         return id == person.id && Objects.equals(name, person.name);
     }
 
